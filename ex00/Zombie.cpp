@@ -9,5 +9,5 @@ Zombie::Zombie(const std::string &inputname) {
 }
 
 Zombie::~Zombie() {
-    std::cout << name << '\n';
+    std::cout << name << " was destroyed" << std::endl;
 }
